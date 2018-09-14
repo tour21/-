@@ -1,0 +1,71 @@
+ul {
+    list-style: none;
+}
+.my-content {
+    position: absolute;
+    left: 0;
+    top: 44px;
+    bottom: 50px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.cate-left{
+    height: 100%;
+    width: 80px;
+    float: left;
+    position: relative;
+}
+.cate-left .link {
+    background-color: #fff;
+}
+.cate-left .link a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.cate-left .link .active{
+    background-color: #f5f5f5;
+    border-right: 1px solid transparent;
+}
+.cate-right{
+    height: 100%;
+    margin-left: 90px;
+    position: relative;
+}
+.cate-right .brand-list{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.cate-right .brand-list li {
+    width: 33.33%;
+    float: left;
+}
+.cate-right .brand-list li a {
+    display: block;
+}
+.cate-right .brand-list li img {
+    width: 100%;
+}
+.cate-right .brand-list li p {
+    text-align: center;
+}
+.noresult {
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
